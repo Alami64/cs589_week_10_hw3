@@ -1,20 +1,27 @@
-# CS589 Week 10 Homework 4
+# Answer Generation and Text Search System
 
 ## Description
-This repository contains the assignments and solutions for the CS589 course, specifically for Week 10, Homework 4. It's focused on advanced concepts in computer science and programming.
+This project focuses on generating answers from a given text using machine learning and natural language processing techniques. It utilizes the Cohere platform for embedding texts and generating responses to specific queries, making it an advanced tool for text analysis and answer retrieval.
 
-## Installation and Setup
-Follow these steps to set up the project:
+## Installation
+To set up the project, follow these steps:
 
-1. **Clone the Repository**:
-   - Clone this repository to your local machine using `git clone https://github.com/Alami64/cs589_week_10_hw4.git`
+1. **Set up a Virtual Environment**:
+   - Create a virtual environment: `python -m venv venv`
+   - Activate the virtual environment:
+     - Windows: `venv\\Scripts\\activate`
+     - macOS/Linux: `source venv/bin/activate`
 
-2. **Install Requirements** (if applicable):
-   - Navigate to the repository directory.
-   - Install necessary dependencies: `pip install -r requirements.txt`
+2. **Install Requirements**:
+   - Install the required packages: `pip install -r requirements.txt`
+
+3. **Environment Variables**:
+   - Create a `.env` file in the project root.
+   - Add your Cohere API key and other necessary configurations to the `.env` file.
 
 ## Usage
-Navigate to the specific homework or assignment folder and follow the instructions provided within each sub-directory for running and testing the codes.
+The system allows users to input a block of text and pose questions to it. Utilizing the Cohere API, it embeds the text, searches for relevant parts, and generates answers. The main functionalities include:
 
-## Features
-This repository includes various assignments and their solutions, showcasing practical applications of computer science theories and programming practices.
+- **Text Embedding**: Embeds a given text for efficient searching.
+- **Article Searching**: Searches the embedded text for relevant content based on a query.
+- **Answer Generation**: Generates answers to questions based on the search results.
