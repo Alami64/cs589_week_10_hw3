@@ -1,7 +1,7 @@
 # Answer Generation and Text Search System
 
 ## Description
-This project focuses on generating answers from a given text using machine learning and natural language processing techniques. It utilizes the Cohere platform for embedding texts and generating responses to specific queries, making it an advanced tool for text analysis and answer retrieval.
+This project focuses on generating answers from a given text using Cohere API. It utilizes the Cohere platform for embedding texts and generating responses to specific queries.
 
 ## Installation
 To set up the project, follow these steps:
